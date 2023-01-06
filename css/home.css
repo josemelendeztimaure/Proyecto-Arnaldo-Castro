@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background: rgb(43, 173, 238);
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.container{
+    width: 98%;
+    margin: auto;
+
+}
+
+.container img{
+    position: relative;
+    top: 5px;
+    left: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+h1 {
+    position: absolute;
+    top: 10px;
+    left: 70px;
+    font-size: 25px; 
+    float: left;   
+}
+
+header .container{
+    display: table;
+}
